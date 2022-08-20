@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">sorteioapk</string>
+    <string name="texto_resultado">Texto Resultado</string>
+    <string name="mudar_texto">MUDAR TEXTO</string>
+</resources>
