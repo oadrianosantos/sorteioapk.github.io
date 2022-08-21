@@ -17,9 +17,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void selecionarBotao (View V){
-        int x = new Random().nextInt(101);
-
+        int x = new Random().nextInt(24);
+        x=+ x+1;
         TextView texto = findViewById(R.id.textoResultado);
-        texto.setText("O NÚMERO SORTEADO FOI:   "  +x);
+        texto.setText("A SORTE ESTÁ LANÇADA:   "  +x);
     }
 }
