@@ -41,4 +41,15 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="213dp"
+        android:layout_height="198dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoResultado"
+        app:layout_constraintVertical_bias="0.339"
+        app:srcCompat="@drawable/_3a257ef2965ded6ce23fcc9cc3c0ead19049b38261961ab5781b0fe219068e4" />
 </android.support.constraint.ConstraintLayout>
